@@ -2,6 +2,9 @@
   "scripts": {
     "watch": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
