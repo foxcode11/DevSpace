@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "start node db --ignore frontend-js --ignore public/ && start webpack --watch"
+    "watch": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch"
   },
   "dependencies": {
     "@babel/core": "^7.16.5",
